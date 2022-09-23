@@ -1,0 +1,105 @@
+/*css code for application section */
+ 
+ .viewcontainer{
+     width: 600px;
+     height:500px;
+     background-color: #fff;
+     border: 1px solid rgb(249, 204, 204);
+     margin-left:700px; 
+     margin-top: -350px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ }
+ .viewcontainer .table{
+     background-color: #fff;
+     width: 500px;
+     border: 1px solid #000;
+     margin-top: 20px;
+     margin-left: 40px;
+
+ }
+ .viewcontainer .table th{
+    border-bottom: 2px solid #000;
+ }
+ .viewcontainer .table th{
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .viewcontainer .table td{
+    font-size: 15px;
+ }
+
+ .formcontainer{
+     width: 450px;
+     height: 300px;
+     background-color: #fff;
+     margin-top: 100px;
+     margin-left: 150px;
+     border: 1px solid rgb(249, 204, 204);
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ 
+ }
+ .formcontainer form{
+     padding: 40px 40px 40px 40px;
+     padding-left: 80px;
+ }
+ .formcontainer h2{
+     font-weight: bold;
+     text-align: center;
+     color: #000;
+     margin-top: 10px;
+ }
+ .formcontainer form label{
+     color: #000;
+     font-size: 20px;
+ }
+ .formcontainer form input{
+     border-radius: 3px;
+     border: 1px solid rgb(17, 17, 16);
+     width: 300px;
+     height: 30px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ 
+ .dbtn{
+     width: 60px;
+     height: 30px;
+     background-color: red;
+     color: white;
+     border: 1px solid #fff;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .dbtn:hover{
+     transition: 2s;
+     background-color: #540707;
+ }
+ 
+ .sbtn{
+         width: 150px;
+         height: 40px;
+         background-color: rgb(31, 151, 5);
+         color: white;
+         border: 1px solid #fff;
+         border-radius: 5px;
+         margin-left: 70px;
+         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+ .sbtn:hover{
+         transition: 2s;
+         background-color: #05483b;
+     
+ }
+ .ibtn{
+     width: 60px;
+     height: 30px;
+     background-color: rgb(5, 9, 121);
+     color: white;
+     border: 1px solid #fff;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ .ibtn:hover{
+     transition: 2s;
+     background-color: #05483b;
+ 
+ }
